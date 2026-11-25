@@ -56,4 +56,10 @@ export const PROJECTS: Project[] = [
     subtext: 'Developed a minimalist clock featuring a time-remaining indicator.',
     url: 'https://github.com/Ishan-giri-05293',
   },
+  {
+    title: 'Ghatnaein',
+    date: 'Nov 2026',
+    subtext: 'A Hindi digital news platform covering 9 states, with video, a daily e-paper, an online reporter onboarding flow, and separate member and admin portals.',
+    url: 'https://ghatnaein.com',
+  },
 ];
