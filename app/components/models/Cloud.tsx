@@ -4,6 +4,7 @@ import * as THREE from "three";
 const CloudContainer = () => {
   return (
     <Clouds material={THREE.MeshBasicMaterial}
+      texture="cloud.png"
       position={[0, -5, 0]}
       frustumCulled={false}>
       <Cloud seed={1}

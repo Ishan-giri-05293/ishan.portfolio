@@ -10,6 +10,8 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  // Vendored, minified Draco decoder copied from three/examples.
+  { ignores: ["public/draco/**"] },
   ...compat.config({
     extends: ["next/core-web-vitals", "next/typescript"],
     rules: {

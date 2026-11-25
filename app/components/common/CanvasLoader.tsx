@@ -43,7 +43,7 @@ const CanvasLoader = (props: { children: React.ReactNode }) => {
 
   useGSAP(() => {
     if (progress === 100) {
-      gsap.to('.base-canvas', { opacity: 1, duration: 3, delay: 1 });
+      gsap.to('.base-canvas', { opacity: 1, duration: 1.5, delay: 0.3 });
     }
   }, [progress]);
 
@@ -73,7 +73,7 @@ const CanvasLoader = (props: { children: React.ReactNode }) => {
           shadows
           style={canvasStyle}
           ref={canvasRef}
-          dpr={[1, 2]}>
+          dpr={[1, 1.5]}>
           {/* <Perf/> */}
           <Suspense fallback={null}>
             <ambientLight intensity={0.5} />
