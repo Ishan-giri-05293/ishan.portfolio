@@ -14,8 +14,8 @@ const vercettiFont = localFont({
 
 export const metadata: Metadata = {
   title: "Ishan Giri",
-  description: "A Software Developer by profession, a creative at heart.",
-  keywords: "Ishan Giri, Software Developer, React Developer, Three.js, Creative Developer, Web Development, Angular, JavaScript, TypeScript, Portfolio",
+  description: "B.Tech AI & ML student and full-stack web developer who builds fast, secure products for real clients.",
+  keywords: "Ishan Giri, Full-Stack Developer, Freelance Web Developer, AI/ML, Machine Learning, Python, React, Next.js, Node.js, FastAPI, TypeScript, Portfolio",
   authors: [{ name: "Ishan Giri" }],
   creator: "Ishan Giri",
   publisher: "Ishan Giri",
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Ishan Giri - Software Developer",
-    description: "Software developer by profession, creative at heart.",
+    title: "Ishan Giri - Full-Stack Developer",
+    description: "B.Tech AI & ML student and full-stack web developer who builds fast, secure products for real clients.",
     url: "https://ishangiri.vercel.app",
     siteName: "Ishan Giri's Portfolio",
     locale: "en_US",
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ishan Giri - Software Developer",
-    description: "Software developer by profession, creative at heart.",
+    title: "Ishan Giri - Full-Stack Developer",
+    description: "B.Tech AI & ML student and full-stack web developer who builds fast, secure products for real clients.",
   },
 };
 
