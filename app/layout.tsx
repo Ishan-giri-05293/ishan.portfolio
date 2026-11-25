@@ -1,4 +1,3 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata, Viewport } from "next";
 import localFont from 'next/font/local';
 import "./globals.css";
@@ -38,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ishan Giri - Software Developer",
     description: "Software developer by profession, creative at heart.",
-    url: "https://mohitvirli.github.io",
+    url: "https://ishangiri.vercel.app",
     siteName: "Ishan Giri's Portfolio",
     locale: "en_US",
     type: "website",
@@ -47,9 +46,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ishan Giri - Software Developer",
     description: "Software developer by profession, creative at heart.",
-  },
-  verification: {
-    google: "GsRYY-ivL0F_VKkfs5KAeToliqz0gCrRAJKKmFkAxBA",
   },
 };
 
@@ -72,7 +68,6 @@ export default function RootLayout({
       >
         {children}
       </body>
-      <GoogleAnalytics gaId={'G-7WD4HM3XRE'}/>
     </html>
   );
 }

@@ -1,26 +1,34 @@
-# mohitvirli.github.io
-Hello there! I'm Mohit Virli, frontend engineer by profession, a creative at heart.
+# Ishan Giri — Portfolio
 
-This the updated version of my personal website which is now in 3D. LFG!
+Hi, I'm Ishan Giri, a B.Tech AIML student at GL Bajaj and a developer who builds for the web.
 
-Checkout the live version at [mohitvirli.github.io](https://mohitvirli.github.io/)
+This is my personal website: an interactive 3D portfolio with my projects, timeline and links.
+
+**Live:** [ishangiri.vercel.app](https://ishangiri.vercel.app/)
 
 ## Tech Stack
 
 - Next.js
 - React
-- React-three-fiber
-- DREI
+- React Three Fiber
+- Drei
 - GSAP
 - Zustand
-- Tailwind
+- Tailwind CSS
 
-## Preview
-Some of the sample images from the app. Better to check it out live!
+## Run locally
 
-<img width="1242" alt="image" src="https://github.com/user-attachments/assets/877b0685-8d86-4f8b-b123-f3cc17d46fc7" />
-<img width="1241" alt="image" src="https://github.com/user-attachments/assets/09a92647-1781-4124-ba3f-1d6fb66f6974" />
-<img width="1241" alt="image" src="https://github.com/user-attachments/assets/a15017f4-f1f2-459e-b895-b3c14703635b" />
-<img width="1428" height="830" alt="image" src="https://github.com/user-attachments/assets/9f78c2e8-991c-4507-8ffb-72e61513c031" />
+```bash
+npm install
+npm run dev
+```
 
+Then open [http://localhost:3000](http://localhost:3000).
 
+## Credits
+
+- Design and original code forked from [Mohit Virli's portfolio](https://github.com/mohitvirli/mohitvirli.github.io), customised with my own content.
+- 3D models from Sketchfab:
+  - [Residential Window](https://sketchfab.com/3d-models/residential-window-ae11104237314463a61251fd46ded4b4) by AleixoAlonso (CC-BY-4.0)
+  - [Dali, The Persistence of Memory](https://sketchfab.com/3d-models/dalithe-persistence-of-memory-ab3e99facbdb4d9d8661d3f07815638e) by arloopa (CC-BY-4.0)
+  - [Wanderer above the sea of fog](https://sketchfab.com/3d-models/wanderer-above-the-sea-of-fog-518e605e9b734c86aab5bc22f9797f77) by betocarrillo (CC-BY-SA-4.0)
