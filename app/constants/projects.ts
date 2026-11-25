@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'RoomRota',
     date: 'Jun 2026',
-    subtext: 'A platform that allows users to create and manage room rotas for shared living spaces, ensuring fair distribution of chores and responsibilities.',
+    subtext: 'A full-stack app that automates roommate chore assignment, with fairness algorithms based on availability, workload history and completion patterns.',
     url: 'https://room-rota-jade.vercel.app/',
   },
   {
@@ -35,12 +35,12 @@ export const PROJECTS: Project[] = [
   {
     title: 'AquaRoute',
     date: 'Oct 2026',
-    subtext: 'A water-can delivery platform for customers and delivery partners. A FastAPI backend plans routes with nearest-neighbour and 2-opt optimisation, with a React and Firebase frontend.',
+    subtext: 'A water-can delivery platform for local businesses. It handles recurring orders and plans delivery routes with Nearest Neighbour, 2-opt and Cheapest Insertion.',
   },
   {
     title: 'Ghatnaein',
     date: 'Nov 2026',
-    subtext: 'A Hindi digital news platform covering 9 states, with video, a daily e-paper, an online reporter onboarding flow, and separate member and admin portals.',
+    subtext: 'Freelance redesign of a live Hindi news portal. Cut mobile page weight from 10.9 MB to 2 MB, raised Lighthouse from 39 to 73 and closed critical security holes.',
     url: 'https://ghatnaein.com',
   },
 ];
