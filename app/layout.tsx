@@ -13,6 +13,7 @@ const vercettiFont = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ishangiri.vercel.app"),
   title: "Ishan Giri",
   description: "B.Tech AI & ML student and full-stack web developer who builds fast, secure products for real clients.",
   keywords: "Ishan Giri, Full-Stack Developer, Freelance Web Developer, AI/ML, Machine Learning, Python, React, Next.js, Node.js, FastAPI, TypeScript, Portfolio",
